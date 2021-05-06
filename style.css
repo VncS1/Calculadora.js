@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(168, 52, 52);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-calculadora {
+    
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 0.5rem;
+}
+
+#box-calculadora h3 {
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem;
+}
+
+#box-calculadora .resultado {
+    background-color: rgb(243, 243, 243);
+    color: #000;
+    font-weight: bold;
+
+    width: 80%;
+    padding: 0.2rem 0.5rem;
+
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.7rem;
+
+    width: 90%;
+}
+
+.botao {
+    background-color: #333;
+    width: 25%;
+    flex: 1;
+}
+
+.botao button {
+    background-color: none;
+    border: none;
+
+    padding: 0.8rem 0.94rem;
+
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+.botaoDois {
+    flex: 2;
+    text-align: center;
+}

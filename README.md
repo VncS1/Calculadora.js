@@ -1,0 +1,1 @@
+Um app de calculadora usando HTML, CSS e JavaScript.
