@@ -41,7 +41,7 @@ body {
     font-weight: bold;
 
     width: 80%;
-    padding: 0.2rem 0.5rem;
+    padding: 0.6rem 0.5rem;
 
 }
 
@@ -50,22 +50,26 @@ body {
     flex-direction: row;
 }
 
-.botoes {
+#botoes {
     display: flex;
     flex-direction: column;
 
     padding: 0.7rem;
 
     width: 90%;
+
+    
 }
 
 .botao {
     background-color: #333;
     width: 25%;
     flex: 1;
+
+    text-align: center;
 }
 
-.botao button {
+.botao input {
     background-color: none;
     border: none;
 
@@ -76,6 +80,8 @@ body {
     font-size: 1rem;
 
     cursor: pointer;
+
+
 }
 
 .botaoDois {
