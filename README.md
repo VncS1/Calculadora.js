@@ -1,1 +1,1 @@
-Um app de calculadora usando HTML, CSS e JavaScript.
+Um app de calculadora usando HTML, CSS e JavaScript. :D
